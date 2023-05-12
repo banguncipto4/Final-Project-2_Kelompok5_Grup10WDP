@@ -1,0 +1,10 @@
+Project detailsnya :
+1. Section A : Header & Banner
+2. Section B : Products Features 1 & Features 2
+3. Section C : About & Pricing
+4. Section D : Contact & Footer
+
+Section A : Dikerjakan oleh Bangun Sucipto Darmawan
+Section C : Dikerjakan oleh Annisa Wahyuni Enun
+Section B : Dikerjakan oleh Yulia Dewi Susanti
+Section D : Dikerjakan oleh Bersama /Kelompok (dikarenakan anggota hanya 3)
