@@ -1,0 +1,1107 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+
+  }
+/* Header */
+ .navbar-item{
+  align-items: center;
+  justify-content: center;
+ }
+.nav-item{
+  font-family: "Nunito",sans-serif;
+  background-color: #ffffff;
+}
+.login1{
+  font-family: "Nunito",sans-serif;
+  background-color: #ffffff;
+}
+ .signup1{
+  font-family: "Nunito",sans-serif;
+  background-color: #ffffff;
+ }
+ /* Banner  */
+
+ .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.div-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    max-width: 100%;
+    width: 87%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f2f6ff;
+}
+/* Isi Card Banner */
+.card-up1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 1.5rem;
+}
+.card-icon-document {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 10px;
+  margin-right: 15rem;
+}
+.icon-document {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 50%;
+}
+
+.card-date-teamMeeting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+.icon-date-teamMeeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border: solid 2px #234cad;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.card-up-2-banner{
+display: block;
+    align-items: center;
+    justify-content: center;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: auto;
+    padding: 30px;
+    margin-top: 200px;
+    margin-right: 16rem;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.icon-up-2-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  border-bottom: solid 2px;
+  border-right: solid 2px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+  margin-bottom: 10px;
+}
+.card-saved-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+.icon-saved-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.card-icon-comment-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 12px;
+  margin-right: 18rem;
+  margin-bottom: 15rem;
+}
+.icon-comment-banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 50%;
+}
+.card-js-card1-banner{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 1rem;
+}
+/* jUMBOTRON CSS */
+.section-jt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.div-jt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  max-width: 100%;
+  width: 87%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f2f6ff;
+}
+.desc-jt {
+  align-items: center;
+}
+.h1-jt {
+  font-size: 42px;
+  line-height: 45px;
+  max-width: 280px;
+  margin-bottom: 1.5rem;
+  color: #234cad;
+}
+.paraf-jt {
+  font-size: 13px;
+  margin-bottom: 2.5rem;
+  color: #234cad;
+}
+.button-jt {
+  padding: 1rem 2.5rem;
+  background-color: transparent;
+  border: 2px solid #234cad;
+  font-size: 100%;
+  font-weight: 600;
+  color: #234cad;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-jt:hover {
+  color: #f2f6ff;
+  background-color: #234cad;
+}
+.p-desc-card {
+  font-size: 11px;
+}
+
+/* Card Jumbotron 1 */
+.card-jt-1 {
+  margin-left: 5rem;
+}
+
+.card-up {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+}
+.icon-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-right: solid 2px #234cad;
+  border-top: solid 2px #234cad;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.div-desc-card-up {
+  margin-left: 10px;
+}
+
+.card-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 1.5rem;
+}
+.icon-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border: solid 2px #234cad;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.div-desc-card-date {
+  margin-left: 10px;
+}
+.circle-date {
+  display: flex;
+  margin-top: 10px;
+}
+.circle-date-bottom {
+  border: solid 2px white;
+  display: flex;
+  font-weight: bold;
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  padding: 9px;
+}
+.circle-date-bottom-child {
+  border: solid 2px white;
+  display: flex;
+  font-weight: bold;
+  background-color: #f2f6ff;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: -5px;
+}
+
+.card-saved {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-right: 5rem;
+}
+.icon-saved {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.div-desc-card-saved {
+  margin-left: 10px;
+}
+
+/* Card Jumbotron 1 */
+.card-jt-2 {
+  margin-left: 3rem;
+  margin-bottom: 10rem ;
+}
+
+.card-ab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 3rem;
+}
+.icon-ab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.span-title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  color: #ffffff;
+  background-color: #234cad;
+  border-radius: 100px;
+  padding: 2px 5px 2px 5px;
+}
+.div-desc-card-ab {
+  margin-left: 10px;
+}
+.hour-1 {
+  margin-top: -20px;
+  margin-left: 25px;
+}
+.p-hour {
+  font-size: 8px;
+}
+
+.card-js {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 5rem;
+}
+.icon-js {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.div-desc-card-js {
+  margin-left: 10px;
+}
+.hour-2 {
+  margin-top: -20px;
+}
+.p-hour {
+  font-size: 8px;
+}
+
+.card-up-2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  max-width: auto;
+  padding: 30px;
+  margin-top: 200px;
+}
+.icon-up-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  border-bottom: solid 2px;
+  border-right: solid 2px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+  margin-bottom: 10px;
+}
+.p-desc-icon-up {
+  font-size: 9px;
+}
+
+.card-icon-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.icon-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 50%;
+}
+.card-up-copy {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 12px;
+}
+.icon-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 50%;
+}
+.card-up-comment {
+  display: flex;
+  align-items: center;
+}
+.both-of-card {
+  margin-right: 50px;
+  margin-bottom: 10rem;
+}
+
+/* Section Banner */
+.section-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-banner-card-1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 12rem;
+}
+.section-banner-card-2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 12rem;
+}
+
+.banner-card-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+
+.div-banner-desc-card {
+  margin-left: 10px;
+}
+
+.div-banner-desc-card h4 {
+  font-size: 30px;
+}
+.p-banner-desc-card {
+  font-size: 17px;
+}
+/* End Of Section Banner */
+
+/* END OF JUMBOTORN CSS */
+
+.section-features {
+    margin-bottom: 5rem;
+  }
+  /* END OF FEATURES CSS */
+  /* FEATURE 1 CSS */
+  .feature-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  .div-feature-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    max-width: 100%;
+    width: 45%;
+    padding: 5rem 1rem 5rem 1rem;
+    background-color: #f2f6ff;
+  }
+  .all-card .card-aj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .all-card .card-dl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .all-card .card-mc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Chat 1 Feature */
+  .position-chat-1 {
+    padding: 0px 80px 0px 80px;
+  }
+  .card-aj {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 1.5rem;
+    padding: 25px 0px 25px 0px;
+  }
+  .icon-aj {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #f2f6ff;
+  }
+  .span-title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 8px;
+    color: #ffffff;
+    background-color: #234cad;
+    border-radius: 100px;
+    padding: 2px 5px 2px 5px;
+  }
+  .div-desc-card-aj {
+    font-size: 15px;
+    margin-left: 18px;
+  }
+  .p-desc-chat-1 {
+    font-size: 13px;
+  }
+  .chat-1 {
+    margin-top: -20px;
+  }
+  .p-chat-1 {
+    font-size: 10px;
+  }
+  /* Chat 2 Feature */
+  .position-chat-2 {
+    padding: 0px 110px 0px 110px;
+    opacity: 75%;
+  }
+  .card-dl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 1.5rem;
+    padding: 20px 0px 20px 0px;
+  }
+  .icon-dl {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #f2f6ff;
+  }
+  .span-title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 8px;
+    color: #ffffff;
+    background-color: #234cad;
+    border-radius: 100px;
+    padding: 2px 5px 2px 5px;
+  }
+  .div-desc-card-dl {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .chat-2 {
+    margin-top: -20px;
+  }
+  .p-chat-2 {
+    font-size: 8px;
+  }
+  /* Chat 3 Feature */
+  .position-chat-3 {
+    opacity: 50%;
+    padding: 0px 140px 0px 140px;
+  }
+  .card-mc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 300px;
+    padding: 10px 20px 10px 20px;
+  }
+  .icon-mc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #f2f6ff;
+  }
+  .span-title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 8px;
+    color: #ffffff;
+    background-color: #234cad;
+    border-radius: 100px;
+    padding: 2px 5px 2px 5px;
+  }
+  .div-desc-card-mc {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  .p-desc-chat-3 {
+    font-size: 8px;
+  }
+  .chat-3 {
+    margin-top: -20px;
+  }
+  .p-chat-3 {
+    font-size: 6px;
+  }
+  
+  /* Desc Feature 1 */
+  .desc-feature-1 {
+    color: #234cad;
+    font-size: 29px;
+    margin-left: 5.5rem;
+  }
+  .h1-desc-feature-1 {
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .p-desc-feature-1 {
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+  .button-feature-1 {
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+    border: 2px solid #234cad;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234cad;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .button-feature-1:hover {
+    color: #f2f6ff;
+    background-color: #234cad;
+  }
+  /* END OF FEATURE 1 CSS */
+
+  /* FEATURE 2 CSS */
+  .feature-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* END OF FEATURE 2 CSS */
+  
+  /* INFO FEATURES CSS */
+  .info-features {
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #234cad;
+  }
+  .info-features .h1-info-features {
+    font-size: 41px;
+    margin-bottom: 15px;
+  }
+  .info-features .p-info-features {
+    font-size: 14px;
+  }
+  /* END OF INFO FEATURES CSS */
+
+  /* SECTION C*/
+  /* About */
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  /* About head */
+  .about-head {
+    color: #234cad;
+    font-size: 29px;
+    margin-right: 5rem;
+    
+  }
+  
+  .about-head-banner {
+    color: #234cad;
+    font-size: 29px;
+    margin-left: 3rem;
+    margin-bottom: 10rem ;
+  }
+  .about-head-banner h1{
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .about-head-banner p {
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+
+  .about-head h1 {
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .about-head p {
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+  .btn-about {
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+    border: 2px solid #234cad;
+    font-size: 18px;
+    font-weight: 600;
+    color: #234cad;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn-about:hover {
+    color: #f2f6ff;
+    background-color: #234cad;
+  }
+  /* About box */
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    max-width: 100%;
+    width: 45%;
+    height: 500px;
+    padding: 0 0 0 100px;
+    background-color: #f2f6ff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .row-1 {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 70px;
+  }
+  .row-2 {
+    display: flex;
+    opacity: 75%;
+    margin-bottom: 25px;
+  }
+  .row-3 {
+    display: flex;
+    opacity: 50%;
+  }
+  .about-box-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 50px 20px 20px;
+    flex-shrink: 0;
+  }
+  .about-box-right {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 50px 20px 20px;
+    margin-left: 25px;
+  }
+  .about-box-left-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    color: #234cad;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 65px 20px 20px;
+    flex-shrink: 0;
+  }
+  .box-top {
+    display: flex;
+  }
+  .box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: solid 2px #234cad;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  .box-desc {
+    margin-left: 20px;
+  }
+  .box-desc h4{
+    font-size: 18px;
+  }
+  .box-desc p {
+    font-size: 11px;
+  }
+  .box-circle {
+    display: flex;
+    margin-top: 20px;
+  }
+  .box-circle-p-1 {
+    border: solid 2px white;
+    display: flex;
+    font-weight: bold;
+    background-color: #f2f6ff;
+    border-radius: 50%;
+    padding: 9px;
+  }
+  .box-circle-p-2 {
+    border: solid 2px white;
+    display: flex;
+    font-weight: bold;
+    background-color: #f2f6ff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: -5px;
+  }
+  /* Pricing */
+  /* Pricing head */
+  .pricing-head {
+    text-align: center;
+    color: #234cad;
+  }
+  .pricing-title {
+    font-size: 41px;
+    margin-bottom: 15px;
+  }
+  .pricing-desc {
+    font-size: 13px;
+  }
+  /* Pricing body */
+  .pricing-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }  
+  .pricing-card {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f2f6ff;
+    color: #234cad;
+    max-width: 358px;
+    min-height: 358px;
+    border-radius: 40px;
+  }
+  .pricing-card-center {
+    background: #ffffff;
+    border: 2px solid #234cad;
+  }
+  .pricing-body .card-title {
+    font-size: 18px;
+  }
+  .pricing-body h2 {
+    font-size: 41px;
+    margin-top: 2rem;
+  }
+  .pricing-body p {
+    font-size: 16px;
+  }
+  .pricing-card .btn-learn {
+    background: #ffffff;
+    color: #234cad;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px 15px 50px;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  .pricing-card .btn-learn:hover {
+    color: #f2f6ff;
+    background-color: #234cad;
+  }
+  .pricing-card .btn-learn-center {
+    border: 2px solid #234cad;
+  }
+
+  /* SECTION D */
+  .section-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  /* Contact */
+  .contact {
+    text-align: center;
+    border-radius: 3rem;
+    width: 87%;
+    background-color: #f2f6ff;
+    color: #234cad;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    margin-top:5rem;
+  }
+  .contact-title {
+    font-size: 41px;
+    margin-bottom: 15px;  
+  }
+  .contact-desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .form-contact {
+    position: relative;
+  }
+  .input-contact {
+    flex: 1;
+    width: 430px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .input-contact::placeholder {
+    font-size: 14px;
+    opacity: 0.5;
+  }
+  .input-contact:focus {
+    outline: 2px solid #234cad;
+  }
+  .icon-angle {
+    margin-left: -45px;
+    margin-top: 24px;
+    border-radius: 30%;
+    border: none;
+    background-color: #234cad;
+    color: #ffffff;
+    padding: 3px 3px 3px 3px;
+    font-size: 30px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .icon-angle:hover {
+    background-color: #ffffff;
+    color: #234cad;
+    border: 2px solid #234cad;
+  }
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #234cad;
+  }
+  .footer-content {
+    display: wrap;
+    margin-inline: 102px;
+  }
+  .footer-content h2 {
+    margin-bottom: 10px;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
+  .footer-content ul {
+    list-style-type: none;
+    font-size: 14px;
+  }
+  .footer-content li {
+    margin-bottom: 10px;
+  }
